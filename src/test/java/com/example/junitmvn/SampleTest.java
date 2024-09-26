@@ -48,7 +48,7 @@ public class SampleTest {
     }
 
     @Test
-    @DisplayName("샘플 테스트")
+    @DisplayName("sampleTest")
     public void sampleTest() throws Exception{
 
         ResultActions resultActions = mockMvc.perform(MockMvcRequestBuilders.get("/sample/test")
